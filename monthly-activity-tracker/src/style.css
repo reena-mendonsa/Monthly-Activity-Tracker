@@ -1,0 +1,124 @@
+.header {
+  text-align: center;
+  color: rgb(62, 142, 208);
+  font-size: 2.7rem;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.text-input {
+  font-size: 1.4rem;
+  /* padding: 1rem 6rem; */
+  border-radius: 0.2rem;
+  border-color: rgb(5, 144, 224);
+  color: black;
+  /* margin-left: 2rem; */
+}
+.text-input::placeholder {
+  opacity: 100;
+  color: #282c34;
+}
+.submit-btn {
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background-color: rgb(116, 212, 178);
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+}
+.activity-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  box-shadow: 0rem 0rem 1rem 0rem rgb(206, 206, 206);
+}
+.active {
+  background: rgb(116, 212, 178);
+  color: #fff;
+  border: 2px solid;
+}
+.activity-box {
+  padding: 4rem;
+  border: 8px solid rgb(7, 214, 251);
+  background-color: rgb(227, 238, 250);
+  margin-bottom: 2rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.act-title-box {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.activity-title {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.activity-month {
+  background-color: rgb(229, 91, 70);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.date-box {
+  margin: 0 1rem;
+  padding: 0.5rem 4.5rem;
+}
+.day-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  width: 2rem;
+  height: 1rem;
+  padding: 0.8rem 1.8rem;
+  border: 2px solid rgb(207, 207, 207);
+  border-radius: 0.5rem;
+  margin: 4px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p:hover {
+  border-color: rgb(0, 38, 255);
+}
+
+.delete-btn {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: rgb(250, 33, 33);
+  border-radius: 60%;
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  /* top: 15rem; */
+  /* right: 10rem; */
+  border: none;
+}
